@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleble = no, maximum-scale=1, minimum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, maximum-scale=1, minimum-scale=1">
 	<title>GitHub</title>
 	<meta name="author" content="dev.yeon">
 	<meta name="description" content="Github is where people build software. more ~">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+
 
 </head>
 <body>
 	<div class="body__container">
 		<header class="section">
 			<div class="inner">
-				<div class="menu_group float--left">
+				<div class="menu__group float--left">
 					<div class="logo">
 						<a href="#">Github</a>
 					</div>
 
-					<ul class="main-menu">
+					<ul class="main__menu">
 						<li><a href="#">Personal</a></li>
 						<li><a href="#">Open source</a></li>
 						<li><a href="#">Business</a></li>
@@ -27,16 +31,16 @@
 					</ul>
 				</div>
 
-				<div class="sign-group float--right">
-					<div class="btn-group">
-						<a class="btn sign-in" href="#">Sign in</a>
-						<a class="btn btn--primary sign-up" href="#">Sign up</a>
+				<div class="sign__group float--right">
+					<div class="btn__group">
+						<a class="btn btn--sign-in" href="#">Sign in</a>
+						<a class="btn btn--sign-up" href="#">Sign up</a>
 					</div>
-					<form id="search-form" method="post" action="">
+					<form id="search--form" method="post" action="">
 						<input id="search" class="input--text" type="text" placeholder="Search GitHub">
 						<input type="submit">
 					</form>
-					<ul class="sub-menu">
+					<ul class="sub__menu">
 						<li><a href="#">Pricing</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">Support</a></li>
@@ -44,6 +48,171 @@
 				</div>
 			</div>
 		</header>
+
+		<section class="section section--visual">
+			<div class="inner container">
+				<div class="column__left">
+					<h2 class="title__section">
+						How&nbsp;people build&nbsp;software
+					</h2>
+					<p class="desc__section">
+						Millions&nbsp;of&nbsp;developers&nbsp;use&nbsp;GitHub&nbsp;to&nbsp;build personal&nbsp;projects,&nbsp;support&nbsp;their&nbsp;businesses, and&nbsp;work&nbsp;together&nbsp;on&nbsp;open&nbsp;source&nbsp;technologies.
+					</p>
+				</div>
+				<div class="column__right">
+					<form id="signup--form" class="signup__box" method="post" action="">
+						<ul>
+							<li>
+								<input id="signup" class="input--text" type="text" placeholder="Pick your name">
+							</li>
+							<li>
+								<input id="signup" class="input--text" type="text" placeholder="Your email address">
+							</li>
+							<li>
+								<input id="signup" class="input--text" type="password" placeholder="Create a pasword">
+								<p class="caption">Use at least one letter, one numeral, and seven characters.</p>
+							</li>
+							<li>
+								<div class="btn--submit">
+									<input type="submit">
+									<a class="btn btn--sign-up btn--primary" href="#">Sign up for GitHub
+									</a>
+									<p class="caption">
+									By clicking "Sign up for GitHub", you agree to our terms of service and privacy policy. We'll occasionally send you account related emails.
+									</p>
+								</div>
+								
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--feature">
+			<div class="summary">
+				<h2 class="summary__title">
+					Welcome home, developers
+				</h2>
+				<p class="summary__desc">
+					GitHub fosters a fast, flexible, and collaborative development process that lets you work on your own or with others.
+				</p>
+				<div class="summary__video">
+					<div class="video--ratio">
+						<iframe width="651" height="366" src="https://www.youtube.com/embed/afvT1c1ii0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="tiles">
+				<div class="inner">
+					<ul>
+						<li>
+							<img src="img/feature-tile__build.png" alt="build">
+							<h3 class="summary__title">For everything you build</h3>
+							<p class="summary__desc">Host and manage your code on GitHub. You can keep your work private or share it with the world.</p>
+						</li>
+						<li>
+							<img src="img/feature-tile__work.png" alt="work">
+							<h3 class="summary__title">A better way to work</h3>
+							<p class="summary__desc">From hobbyists to professionals, GitHub helps developers simplify the way they build software.</p>
+						</li>
+						<li>
+							<img src="img/feature-tile__projects.png" alt="projects">
+							<h3 class="summary__title">Millions of projects</h3>
+							<p class="summary__desc">GitHub is home to millions of open source projects. Try one out or get inspired to create your own.</p>
+						</li>
+						<li>
+							<img src="img/feature-tile__platform.png" alt="platform">
+							<h3 class="summary__title">One platform, from start to finish</h3>
+							<p class="summary__desc">With hundreds of integrations, GitHub is flexible enough to be at the center of your development process.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--where">
+			<div class="inner">
+				<div class="summary">
+					<h2 class="summary__title">
+					Where is GitHub?
+					</h2>
+					<p class="summary__desc">
+					GitHub is where people build software. More than 18 million people use GitHub to discover, fork, and contribute to over 48 million projects.
+					</p>
+				</div>
+
+				<div id="map">
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--pricing">
+			<div class="inner">
+				<div class="footer__box">
+					<div class="btn__box">
+						<a class="btn btn--sign-up" href="section--visual">Sign up for GitHub</a>
+					</div>
+					
+					<div class="btn__box__desc">
+					Public projects are always free. Work together across unlimited private repositories for $7 / month.
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<footer class="section">
+			<div class="inner">
+				<ul class="site__links float--left">
+					<li>© 2016 GitHub, Inc.</li>
+					<li><a href="section--visual">Terms</a></li>
+					<li><a href="section--visual">Privacy</a></li>
+					<li><a href="section--visual">Security</a></li>
+					<li><a href="section--visual">Status</a></li>
+					<li><a href="section--visual">Help</a></li>
+				</ul>
+
+				<div class="logo">
+					<a href="section--visual">Github</a>
+				</div>
+
+				<ul ul class="site__links float--right">
+					<li><a href="section--visual">Contact&nbsp;GitHub</a></li>
+					<li><a href="section--visual">API</a></li>
+					<li><a href="section--visual">Training</a></li>
+					<li><a href="section--visual">Shop</a></li>
+					<li><a href="section--visual">Blog</a></li>
+					<li><a href="section--visual">About</a></li>
+				</ul>
+			</div>
+
+		</footer>
+
 	</div>
+
+	<script>
+		function initMap() {
+		const myLatLng = {
+			lat: 37.499356,
+			lng: 127.028253
+		}
+  		
+  		const map = new google.maps.Map(document.getElementById("map"), {
+   		center: myLatLng,
+   		scrollwheel: false,
+    	zoom: 18
+    	})
+
+  		const marker = new google.maps.Marker({
+            position : myLatLng,
+            map : map,
+            title : 'gangnam'
+         })
+
+}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer></script>
 </body>
 </html>
