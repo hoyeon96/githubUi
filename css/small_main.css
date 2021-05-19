@@ -1,0 +1,76 @@
+
+/*visual section*/
+
+section.section--visual .container .column__left h2 {
+	font-size: 34px;
+}
+
+section.section--visual .container .column__left p {
+	font-size: 22px;
+}
+
+
+/*feature section*/
+
+section.section--feature .summary h2 {
+	font-size: 34px;
+}
+
+section.section--feature .summary p {
+	font-size: 22px;
+}
+
+section.section--feature .tiles ul{
+	display: block;
+}
+
+
+.section--feature .tiles li{
+	border-right:none;
+}
+
+.section--feature .tiles li{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/*where section*/
+
+section.section--where .summary h2 {
+	font-size: 34px;
+}
+
+section.section--where .summary p {
+	font-size: 22px;
+}
+
+section.section--where #map {
+	width: auto;
+	margin: 40px -20px 0 -20px;
+	border-left: none;
+	border-right: none;
+}
+
+section.section--pricing .footer__box {
+	display: block;
+}
+
+section.section--pricing .btn__box {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+/*footer section*/
+
+footer.section .site__links {
+	float: none;
+	display: block;
+	text-align: center;
+}
+
+footer.section .site__links li {
+	display: inline;
+}
+
+footer.section .site__links:first-child {
+	margin-bottom: 20px;
+}

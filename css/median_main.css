@@ -1,53 +1,133 @@
+
+/*header section*/
+
 header.section .inner{
-		max-width: none;
-		height: auto;
-		padding: 0 20px;
-	}
-	header .menu__group,
-	header .sign__group{
-	  float: none;
-	}
-	header .menu__group{
-	  display: block;
-	}
-	header .logo {
-	  padding: 12px 0;
-	}
-	header .main__menu {
-	  display: block;
-	  margin-top: 10px;
-	}
-	header .main__menu li {
-	  border-top: 1px solid #e5e5e5;
-	}
-	header .main__menu li a {
-	  padding: 16px 0;
-	}
-	header .sign__group {
-	  display: block;
-	  padding: 10px 0 20px;
-	}
-	header .btn__group {
-	  display: block;
-	}
-	header .btn__group  .btn {
-	  justify-content: center;
-	}
-	header .btn__group .btn--sign-in {
-	  margin-right: 0;
-	  margin-bottom: 12px;
-	}
-	#search--form{
-	  margin-top: 12px;
-	  margin-right: 0;
-	}
-	#search {
-	  width: 100%;
-	  height: 42px;
-	  text-align: center;
-	}
-	header .sub__menuu {
-	  margin-top: 12px;
-	  margin-right: 0;
-	  justify-content: center;
-	}
+	max-width: none;
+	height: auto;
+	padding: 0 20px;
+}
+header .menu__group,
+header .sign__group{
+  float: none;
+}
+header .menu__group{
+  display: block;
+}
+header .logo {
+  padding: 12px 0;
+}
+header .main__menu {
+  display: block;
+  margin-top: 10px;
+}
+header .main__menu li {
+  border-top: 1px solid #e5e5e5;
+}
+
+
+header .main__menu li a {
+  padding: 16px 0;
+}
+
+
+header .main__menu li a:hover{
+	color: #4078c0;
+	padding: 16px 0;
+}
+
+header .sign__group {
+  display: block;
+  padding: 10px 0 20px;
+}
+header .btn__group {
+  display: block;
+}
+header .btn__group  .btn {
+  justify-content: center;
+}
+header  .sign__group .btn__group .btn--sign-in {
+  margin-right: 0;
+  margin-bottom: 12px;
+}
+#search--form{
+  margin-top: 12px;
+  margin-right: 0;
+}
+#search {
+  width: 100%;
+  height: 42px;
+  text-align: center;
+}
+header .sub__menu {
+  margin-top: 12px;
+  margin-right: 0;
+  justify-content: center;
+}
+
+
+/*visual section*/
+section.section--visual {
+	background-image: url(../img/bg-small.jpg);
+}
+
+section.section--visual .inner {
+	max-width: none;
+	padding: 80px 20px;
+	display:block;
+}
+
+section.section--visual .container .column__left {
+	margin-right: 0;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section.section--visual #signup--form {
+	margin: auto;
+	width: 500px;
+}
+
+
+/*feature section*/
+section.section--feature .summary {
+	padding : 66px 20px 0 20px;
+}
+
+section.section--feature .tiles ul{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+section.section--feature .tiles li img{
+	padding: 14px 30% 24px;
+}
+
+
+.section--feature .tiles li:nth-child(2){
+	border-right:none;
+}
+
+/*where section*/
+
+section.section--where .inner {
+	padding: 80px 20px 0 20px;
+}
+
+/*pricing section*/
+
+section.section--pricing .inner {
+	padding: 80px 20px;
+}
+
+section.section--pricing .btn__box__desc {
+	font-size: 20px;
+}
+
+/*footer section*/
+footer.section .inner {
+	padding: 50px 20px;
+}
+
+footer.section .logo {
+	display: none;
+}
