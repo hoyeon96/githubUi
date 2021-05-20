@@ -182,7 +182,7 @@ header .inner{
 }
 
 #toggle-btn{
-	/*display: none;*/
+	display: none;
 	background: url("../img/toggle-btn.svg");
 	width: 18px;
 	height: 24px;
