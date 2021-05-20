@@ -9,6 +9,11 @@ section.section--visual .container .column__left p {
 	font-size: 22px;
 }
 
+section.section--visual #signup--form{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 
 /*feature section*/
 
