@@ -64,6 +64,10 @@ header .sub__menu {
   justify-content: center;
 }
 
+#toggle-btn {
+	display:block;
+}
+
 
 /*visual section*/
 section.section--visual {
