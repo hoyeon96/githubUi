@@ -68,6 +68,15 @@ header .sub__menu {
 	display:block;
 }
 
+/*토글될 부분 감추고 보이기*/
+header .toggle {
+	display: none;
+}
+
+header .toggle.on{
+	display: block;
+}
+
 
 /*visual section*/
 section.section--visual {
